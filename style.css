@@ -1,0 +1,154 @@
+*, *:before, *:after {
+	box-sizing:inherit;
+}
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background:#ede7f6;
+	background: linear-gradient(180deg, rgb(156, 39, 176), rgb(156, 39, 176) 12em, #ede7f6 12em, #ede7f6);
+	font-family:'Open Sans',sans-serif;
+}
+
+h1 {
+	font-weight:normal;
+}
+
+.survey-form {
+	max-width:40em;
+	margin:5em auto;
+	background:white;
+	border-top:0.25em solid rgb(234, 128, 252);
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+}
+
+.title {
+	margin:0;
+	padding:2rem;
+	padding-bottom:0;
+}
+
+.survey-section {
+	padding:2em;
+	display:none;
+}
+.survey-section:last-of-type {
+	display:block;
+}
+
+.survey-section:target {
+	display:block;
+}
+
+.survey-section:target ~ .survey-section {
+	display:none;
+}
+
+.section-title {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding: 1rem 2rem;
+    background: rgb(156, 39, 176);
+    color: white;
+    font-size: 1.25em;
+}
+
+.surveyee {
+	padding-top:1em;
+	margin-top:1em;	
+	border-top:1px solid gray;
+	font-weight:bold;
+}
+
+.field {
+	display:block;
+	border:0;
+	padding:0;
+	margin-bottom:3em;
+}
+
+.field-title {
+	font-weight:bold;
+	margin-bottom:0;
+}
+
+.options-table {
+	table-layout: fixed;
+	width:100%;
+	border-collapse:collapse;
+	text-align:left;
+}
+.options-table th{
+	padding:0.5em;
+}
+.field-option-title {
+	font-weight:normal;
+	font-size:0.75em;
+	text-align:center;
+}
+.options-table tr:nth-of-type(2n) {
+	background:#eee;
+}
+.options-table td label {
+	display:block;
+	text-align:center;
+	padding:0.5em;
+}
+.options-table td:first-child{
+	text-align:left;
+	padding:0.5em;
+}
+
+.field > input, .field > select {
+	display:block;
+	padding:1em;
+	width:20em;
+	border:0;
+	border-bottom:0.25em solid #eee;
+	background:white;
+}
+
+.option {
+    display: block;
+    font-size: 0.75em;
+}
+
+.field-description {
+	font-size:0.75em;
+}
+
+.buttons {
+	margin-top:1em;
+}
+.button {
+	display:inline-block;
+	cursor:pointer;
+	font-size:0.75rem;
+	line-height:1em;
+	vertical-align:baseline;
+	text-transform:uppercase;
+	border:0;
+	padding:1em 2em;
+	text-decoration: none;
+	background:#eee;
+	color:black;
+	font-weight:bold;
+	transition:background-color 0.25s;
+}
+
+.button + .button {
+	margin-left: 1em;
+}
+
+.button:hover {
+	background:#ddd;
+}
+
+.button.call {
+	background-color: rgb(234, 128, 252);
+	color:white;
+}
+.button.call:hover {
+	background-color: rgb(156, 39, 176);
+}
