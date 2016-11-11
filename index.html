@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quantitative Description of Mental Health and Well-being of LGBTQ+ Students of the University of the Philippines Diliman</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form class="survey-form" method="get" action="/cgi-bin/analyser.cgi">
+      <h1 class="title">Quantitative Description of Mental Health and Well-being of LGBTQ+ Students of the University of the Philippines Diliman</h1>
+      <section class="survey-section" id="section2">
+        <h1 class="section-title">Basic Information</h1>
+        <label class="field required">
+          <p class="field-title">Reference Code</p>
+          <p class="field-description">Enter the reference code provided to you by your recruiter.</p>
+          <input type="text" name="refcode" placeholder="e.g., 050115" required>
+        </label>
+        <label class="field required">
+          <p class="field-title">College/School/Institute</p>
+          <select name="college" required>
+            <option value="">Select One</option>
+            <option value="11">Archaeological Studies Program</option>
+            <option value="12">Architecture, College of</option>
+            <option value="13">Arts and Letters, College of</option>
+            <option value="14">Asian Center</option>
+            <option value="15">Business Administration, College of</option>
+            <option value="16">Economics, School of</option>
+            <option value="17">Education, College of</option>
+            <option value="18">Engineering, College of</option>
+            <option value="19">Fine Arts, College of</option>
+            <option value="20">Home Economics, College of</option>
+            <option value="21">Human Kinetics, College of</option>
+            <option value="22">Information Technology Development Center</option>
+            <option value="23">Islamic Studies, Institute of</option>
+            <option value="24">Labor and Industrial Relations, School of</option>
+            <option value="25">Law, College of</option>
+            <option value="26">Library and Information Studies, School of</option>
+            <option value="27">Mass Communication, College of</option>
+            <option value="28">Music, College of</option>
+            <option value="29">Public Administration and Governance, National College of</option>
+            <option value="30">Science, College of</option>
+            <option value="31">Small Scale Industries, Institute for</option>
+            <option value="32">Social Sciences and Philosophy, College of</option>
+            <option value="33">Social Work and Community Development, College of</option>
+            <option value="34">Statistics, School of</option>
+            <option value="35">Technology Management Center</option>
+            <option value="36">Tourism, Asian Institute of</option>
+            <option value="37">Urban and Regional Planning, School of</option>
+          </select>
+        </label>
+        <label class="field required">
+          <p class="field-title">Number of Facebook Friends</p>
+          <p class="field-description">How many Facebook friends do you have?</p>
+          <input type="text" name="nofriends" placeholder="e.g., 687" required>
+        </label>
+        <div class="buttons"><a class="button" href="#section1">Back</a><a class="button" href="#section3">Next</a></div>
+      </section>
+      <section class="survey-section" id="section3">
+        <h1 class="section-title">Gender and Sexuality</h1>
+        <fieldset class="field required">
+          <p class="field-title">1. Do you identify as...?</p>
+          <label class="option">
+            <input type="radio" name="gi" value="1">Genderqueer
+          </label>
+          <label class="option">
+            <input type="radio" name="gi" value="2">Female
+          </label>
+          <label class="option">
+            <input type="radio" name="gi" value="3">Male
+          </label>
+          <label class="option">
+            <input type="radio" name="gi" value="4" checked>Other
+          </label>
+        </fieldset>
+        <fieldset class="field required">
+          <p class="field-title">2. Is this the sex that was assigned to you at birth?</p>
+          <label class="option">
+            <input type="radio" name="tg" value="0" checked>Yes
+          </label>
+          <label class="option">
+            <input type="radio" name="tg" value="1">No
+          </label>
+        </fieldset>
+        <fieldset class="field required">
+          <p class="field-title">3. How would you describe your sexual orientation?</p>
+          <label class="option">
+            <input type="radio" name="so" value="1" checked>Asexual (with little attraction or not attracted to anyone at all)
+          </label>
+          <label class="option">
+            <input type="radio" name="so" value="2">Bisexual (attracted to both men and women)
+          </label>
+          <label class="option">
+            <input type="radio" name="so" value="3">Heterosexual (attracted to the opposite sex and/or gender)
+          </label>
+          <label class="option">
+            <input type="radio" name="so" value="4">Homosexual (attracted to the same sex and/or gender)
+          </label>
+          <label class="option">
+            <input type="radio" name="so" value="5">Other
+          </label>
+        </fieldset>
+        <div class="buttons"><a class="button" href="#section2">Back</a><a class="button" href="#section4">Next</a></div>
+      </section>
+      <section class="survey-section" id="section4">
+        <h1 class="section-title">School Environment</h1>
+        <p class="field-title">1. Below are some statements about school. For each one, please tell us how much you agree or disagree with each statement.</p>
+        <table class="options-table">
+          <tr>
+            <th class="field-title"> </th>
+            <th class="field-option-title">Strongly Agree</th>
+            <th class="field-option-title">Agree</th>
+            <th class="field-option-title">Disagree</th>
+            <th class="field-option-title">Strongly Disagree</th>
+            <th class="field-option-title">Does not apply</th>
+          </tr>
+          <tr>
+            <td class="field-description">I feel like a real part of my school</td>
+            <td>
+              <label>
+                <input type="radio" name="s1a" value="2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1a" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1a" value="-1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1a" value="-2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1a" value="0" checked>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="field-description">It is hard for people like me to be accepted at my school</td>
+            <td>
+              <label>
+                <input type="radio" name="s1b" value="2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1b" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1b" value="-1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1b" value="-2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1b" value="0" checked>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="field-description">People at my school are friendly to me</td>
+            <td>
+              <label>
+                <input type="radio" name="s1c" value="2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1c" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1c" value="-1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1c" value="-2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1c" value="0" checked>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="field-description">I am treated with as much respect as other students</td>
+            <td>
+              <label>
+                <input type="radio" name="s1d" value="2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1d" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1d" value="-1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1d" value="-2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1d" value="0" checked>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="field-description">I can really be myself at school</td>
+            <td>
+              <label>
+                <input type="radio" name="s1e" value="2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1e" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1e" value="-1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1e" value="-2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1e" value="0" checked>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="field-description">There are no teachers or other staff in school that I can talk to if I have a problem</td>
+            <td>
+              <label>
+                <input type="radio" name="s1f" value="2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1f" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1f" value="-1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1f" value="-2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1f" value="0" checked>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="field-description">Other students at my school like me the way I am</td>
+            <td>
+              <label>
+                <input type="radio" name="s1g" value="2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1g" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1g" value="-1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1g" value="-2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1g" value="0" checked>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="field-description">I feel proud to belong to my school</td>
+            <td>
+              <label>
+                <input type="radio" name="s1h" value="2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1h" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1h" value="-1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1h" value="-2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s1h" value="0" checked>
+              </label>
+            </td>
+          </tr>
+        </table>
+        <p class="field-title">2. In general, how comfortable would you be or have you been...?</p>
+        <table class="options-table">
+          <tr>
+            <th class="field-title"> </th>
+            <th class="field-option-title">Very Comfortable</th>
+            <th class="field-option-title">Comfortable</th>
+            <th class="field-option-title">Uncomfortable</th>
+            <th class="field-option-title">Very Uncomfortable</th>
+            <th class="field-option-title">Does not apply</th>
+          </tr>
+          <tr>
+            <td class="field-description">Talking to your teacher(s) one-on-one about LGBTQ+ issues</td>
+            <td>
+              <label>
+                <input type="radio" name="s3a" value="2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3a" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3a" value="-1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3a" value="-2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3a" value="0" checked>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="field-description">Talking to your school head(s) about LGBTQ+ issues</td>
+            <td>
+              <label>
+                <input type="radio" name="s3b" value="2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3b" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3b" value="-1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3b" value="-2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3b" value="0" checked>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="field-description">Taking a date of the same sex to a school event</td>
+            <td>
+              <label>
+                <input type="radio" name="s3c" value="2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3c" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3c" value="-1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3c" value="-2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3c" value="0" checked>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="field-description">Raising or responding to LGBTQ+ issues in your classes</td>
+            <td>
+              <label>
+                <input type="radio" name="s3d" value="2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3d" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3d" value="-1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3d" value="-2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3d" value="0" checked>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="field-description">Setting up or being part of a club or group that addresses LGBTQ+ issues</td>
+            <td>
+              <label>
+                <input type="radio" name="s3e" value="2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3e" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3e" value="-1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3e" value="-2">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s3e" value="0" checked>
+              </label>
+            </td>
+          </tr>
+        </table>
+        <p class="field-title">3. Did students and/or staff at your school ever...?</p>
+        <table class="options-table">
+          <tr>
+            <th class="field-title"> </th>
+            <th class="field-option-title">Yes</th>
+            <th class="field-option-title">No</th>
+          </tr>
+          <tr>
+            <td class="field-description">Verbally threaten you because you are LGBTQ+ or they thought that you were?</td>
+            <td>
+              <label>
+                <input type="radio" name="s4a" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s4a" value="0" checked>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="field-description">Physically threaten you because you are LGBTQ+ or someone thought that you were?</td>
+            <td>
+              <label>
+                <input type="radio" name="s4b" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s4b" value="0" checked>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td class="field-description">Call you hurtful names that had to do with your sexual orientation or gender identity?</td>
+            <td>
+              <label>
+                <input type="radio" name="s4c" value="1">
+              </label>
+            </td>
+            <td>
+              <label>
+                <input type="radio" name="s4c" value="0" checked>
+              </label>
+            </td>
+          </tr>
+        </table>
+        <fieldset class="field required">
+          <p class="field-title">4. Have you ever missed or skipped school because you didn't want hear these names, felt threatened, or were scared of getting hurt?</p>
+          <label class="option">
+            <input type="radio" name="s5" value="1">Yes
+          </label>
+          <label class="option">
+            <input type="radio" name="s5" value="-1">No
+          </label>
+          <label class="option">
+            <input type="radio" name="s5" value="0" checked>Does not apply
+          </label>
+        </fieldset>
+        <fieldset class="field required">
+          <p class="field-title">5. Did you ever consider leaving school early because of the negative treatment you received at school because you were LGBTQ+?</p>
+          <label class="option">
+            <input type="radio" name="s6" value="1">Yes
+          </label>
+          <label class="option">
+            <input type="radio" name="s6" value="-1">No
+          </label>
+          <label class="option">
+            <input type="radio" name="s6" value="0" checked>Does not apply
+          </label>
+        </fieldset>
+        <div class="buttons"><a class="button" href="#section3">Back</a>
+          <input class="button call" type="submit" value="Submit">
+        </div>
+      </section>
+      <section class="survey-section" id="section1">
+        <h1 class="section-title">Informed Consent</h1>
+        <section class="description">
+          <p>I am Xavier Bilon, studying Gender and Sexuality and Programming Applications in Electrical and Electronics Engineering at the University of the Philippines Diliman. I am doing a study on the mental health and well-being of LGBTQ+ students of the University of the Philippines Diliman in aid of legal policy and support advocacies within and outside the University.</p>
+          <p>This research will involve your participation in answering an on-line questionnaire that will take about 10-15 minutes.</p>
+          <p>Your participation in this research is entirely voluntary. It is your choice whether to participate or not. You may stop participating in the study at any time that you wish to.</p>
+          <p>I will not be sharing information about you to anyone. The information that I collect from this research project will be kept private. Any information about you will have an encrypted code on it as reference.</p>
+          <p>The questionnaire is in English.</p>
+          <p>If you have any questions, feel free to contact me through my mobile at 0917 737 5788, or my e-mail at xjbilon@up.edu.ph.</p>
+        </section>
+        <section class="description surveyee">
+          <p>I have read the foregoing information. I have had the opportunity to ask questions about it, and any questions I have asked have been answered to my satisfaction. I have been made aware that this survey is in English. I identify as a member of the LGBTQ+ community; I am a bona fide student of the University of the Philippines Diliman; I am of legal age, 18 years old and above; and I consent voluntarily to be a participant in this study. </p>
+        </section>
+        <div class="buttons"><a class="button call" href="#section2">Yes, and I want to continue.</a></div>
+      </section>
+    </form>
+  </body>
+</html>
